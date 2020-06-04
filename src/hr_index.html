@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hr个人信息管理</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body {
+      width: 100%;
+
+      height: 100%;
+    }
+    .main {
+      display: flex;
+      background-color: #f0e9e9;
+      width: 100%;
+      height: 100%;
+      padding-top: 100px;
+      justify-content: center;
+    }
+    .hr_info {
+      background-color: #fff;
+      width: 40%;
+      height: 70%;
+      padding: 20px;
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+    .user img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 40px;
+    }
+
+    .name {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .access {
+      color: #999999;
+    }
+
+    .login-info p {
+      line-height: 28px;
+      font-size: 14px;
+      color: #999999;
+    }
+    .login-info span {
+      color: #666666;
+      margin-left: 60px;
+    }
+  </style>
+  <body>
+    <div class="main">
+      <div class="hr_info">
+        <div class="user">
+          <img src="../hr_img.jpg" />
+          <div class="userinfo">
+            <p class="name">Nick</p>
+            <p class="access">超级管理员</p>
+          </div>
+        </div>
+        <div class="login-info">
+          <p>e-mail：<span>hr@email.com</span></p>
+          <p>Mobile：<span>15521626016</span></p>
+          <p style="height: 100px;">
+            自我介绍: <span>来一句话简单地描述一下自己~~</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
